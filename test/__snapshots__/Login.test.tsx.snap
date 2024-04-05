@@ -1,0 +1,230 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Login > should be rendered successfully 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="container"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="d-flex justify-content-center mb-3 mt-5 col-sm-12"
+          >
+            <h3>
+              Employee Polls
+            </h3>
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="d-flex justify-content-center col-sm-12"
+          >
+            <div
+              class="card"
+              style="width: 540px;"
+            >
+              <div
+                class="card-body"
+              >
+                <div
+                  class="d-flex justify-content-center card-title h5"
+                  data-testid="login-heading"
+                >
+                  Login
+                </div>
+                <form
+                  class=""
+                >
+                  <div
+                    class="mb-3"
+                  >
+                    <label
+                      class="form-label"
+                      for="username"
+                    >
+                      User name: 
+                    </label>
+                    <input
+                      class="form-control"
+                      data-testid="username"
+                      id="username"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                  <div
+                    class="mb-3"
+                  >
+                    <label
+                      class="form-label"
+                      for="password"
+                    >
+                      Password: 
+                    </label>
+                    <input
+                      class="form-control"
+                      data-testid="password"
+                      id="password"
+                      type="password"
+                      value=""
+                    />
+                  </div>
+                  <button
+                    class="btn btn-primary d-block w-100 btn btn-primary"
+                    data-testid="submit"
+                    type="submit"
+                  >
+                    Login
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="container"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="d-flex justify-content-center mb-3 mt-5 col-sm-12"
+        >
+          <h3>
+            Employee Polls
+          </h3>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="d-flex justify-content-center col-sm-12"
+        >
+          <div
+            class="card"
+            style="width: 540px;"
+          >
+            <div
+              class="card-body"
+            >
+              <div
+                class="d-flex justify-content-center card-title h5"
+                data-testid="login-heading"
+              >
+                Login
+              </div>
+              <form
+                class=""
+              >
+                <div
+                  class="mb-3"
+                >
+                  <label
+                    class="form-label"
+                    for="username"
+                  >
+                    User name: 
+                  </label>
+                  <input
+                    class="form-control"
+                    data-testid="username"
+                    id="username"
+                    type="text"
+                    value=""
+                  />
+                </div>
+                <div
+                  class="mb-3"
+                >
+                  <label
+                    class="form-label"
+                    for="password"
+                  >
+                    Password: 
+                  </label>
+                  <input
+                    class="form-control"
+                    data-testid="password"
+                    id="password"
+                    type="password"
+                    value=""
+                  />
+                </div>
+                <button
+                  class="btn btn-primary d-block w-100 btn btn-primary"
+                  data-testid="submit"
+                  type="submit"
+                >
+                  Login
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

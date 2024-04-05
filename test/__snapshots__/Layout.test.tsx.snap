@@ -1,0 +1,1209 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Home component > should render the dashboard component 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="container"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="col-md-6"
+          >
+            <div
+              class="nav nav-underline"
+              data-testid="navbar"
+            >
+              <div
+                class="nav-item"
+              >
+                <a
+                  href="/"
+                >
+                  Home
+                </a>
+              </div>
+              <div
+                class="nav-item"
+              >
+                <a
+                  href="/leaderboard"
+                >
+                  Leaderboard
+                </a>
+              </div>
+              <div
+                class="nav-item"
+              >
+                <a
+                  href="/add"
+                >
+                  New
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="d-flex justify-content-end col-md-6"
+          >
+            <div
+              class="nav"
+            >
+              <div
+                class="nav-item"
+              >
+                <a
+                  aria-disabled="true"
+                  class="nav-link disabled"
+                  data-testid="username"
+                  role="button"
+                >
+                  sarahedo
+                </a>
+              </div>
+              <div
+                class="nav-item"
+              >
+                <button
+                  class="btn btn-link"
+                  data-testid="logout-btn"
+                  type="button"
+                >
+                  Log out
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="col-md-12"
+          >
+            <hr />
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="col-md-12"
+          >
+            <div
+              class="row"
+              data-testid="dashboard"
+            >
+              <div
+                class="col-md-12"
+              >
+                <ul
+                  class="mb-3 nav nav-tabs nav-fill"
+                  role="tablist"
+                >
+                  <li
+                    class="nav-item"
+                    role="presentation"
+                  >
+                    <button
+                      aria-controls="react-aria-:r0:-tabpane-unanswered"
+                      aria-selected="true"
+                      class="nav-link active"
+                      data-rr-ui-event-key="unanswered"
+                      id="react-aria-:r0:-tab-unanswered"
+                      role="tab"
+                      type="button"
+                    >
+                      Unanswered Questions
+                    </button>
+                  </li>
+                  <li
+                    class="nav-item"
+                    role="presentation"
+                  >
+                    <button
+                      aria-controls="react-aria-:r0:-tabpane-answered"
+                      aria-selected="false"
+                      class="nav-link"
+                      data-rr-ui-event-key="answered"
+                      id="react-aria-:r0:-tab-answered"
+                      role="tab"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      Answered Questions
+                    </button>
+                  </li>
+                </ul>
+                <div
+                  class="tab-content"
+                >
+                  <div
+                    aria-labelledby="react-aria-:r0:-tab-unanswered"
+                    class="fade tab-pane active show"
+                    id="react-aria-:r0:-tabpane-unanswered"
+                    role="tabpanel"
+                  >
+                    <div
+                      class="container"
+                    >
+                      <div
+                        class="row"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    aria-labelledby="react-aria-:r0:-tab-answered"
+                    class="fade tab-pane"
+                    id="react-aria-:r0:-tabpane-answered"
+                    role="tabpanel"
+                  >
+                    <div
+                      class="container"
+                    >
+                      <div
+                        class="row"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="container"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-md-6"
+        >
+          <div
+            class="nav nav-underline"
+            data-testid="navbar"
+          >
+            <div
+              class="nav-item"
+            >
+              <a
+                href="/"
+              >
+                Home
+              </a>
+            </div>
+            <div
+              class="nav-item"
+            >
+              <a
+                href="/leaderboard"
+              >
+                Leaderboard
+              </a>
+            </div>
+            <div
+              class="nav-item"
+            >
+              <a
+                href="/add"
+              >
+                New
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="d-flex justify-content-end col-md-6"
+        >
+          <div
+            class="nav"
+          >
+            <div
+              class="nav-item"
+            >
+              <a
+                aria-disabled="true"
+                class="nav-link disabled"
+                data-testid="username"
+                role="button"
+              >
+                sarahedo
+              </a>
+            </div>
+            <div
+              class="nav-item"
+            >
+              <button
+                class="btn btn-link"
+                data-testid="logout-btn"
+                type="button"
+              >
+                Log out
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col-md-12"
+        >
+          <hr />
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col-md-12"
+        >
+          <div
+            class="row"
+            data-testid="dashboard"
+          >
+            <div
+              class="col-md-12"
+            >
+              <ul
+                class="mb-3 nav nav-tabs nav-fill"
+                role="tablist"
+              >
+                <li
+                  class="nav-item"
+                  role="presentation"
+                >
+                  <button
+                    aria-controls="react-aria-:r0:-tabpane-unanswered"
+                    aria-selected="true"
+                    class="nav-link active"
+                    data-rr-ui-event-key="unanswered"
+                    id="react-aria-:r0:-tab-unanswered"
+                    role="tab"
+                    type="button"
+                  >
+                    Unanswered Questions
+                  </button>
+                </li>
+                <li
+                  class="nav-item"
+                  role="presentation"
+                >
+                  <button
+                    aria-controls="react-aria-:r0:-tabpane-answered"
+                    aria-selected="false"
+                    class="nav-link"
+                    data-rr-ui-event-key="answered"
+                    id="react-aria-:r0:-tab-answered"
+                    role="tab"
+                    tabindex="-1"
+                    type="button"
+                  >
+                    Answered Questions
+                  </button>
+                </li>
+              </ul>
+              <div
+                class="tab-content"
+              >
+                <div
+                  aria-labelledby="react-aria-:r0:-tab-unanswered"
+                  class="fade tab-pane active show"
+                  id="react-aria-:r0:-tabpane-unanswered"
+                  role="tabpanel"
+                >
+                  <div
+                    class="container"
+                  >
+                    <div
+                      class="row"
+                    />
+                  </div>
+                </div>
+                <div
+                  aria-labelledby="react-aria-:r0:-tab-answered"
+                  class="fade tab-pane"
+                  id="react-aria-:r0:-tabpane-answered"
+                  role="tabpanel"
+                >
+                  <div
+                    class="container"
+                  >
+                    <div
+                      class="row"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Layout Component > should be rendered successfully 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="container"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="col-md-12"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="container"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-md-12"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Leaderboard Component > should render the leaderboard table 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="container"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="col-md-6"
+          >
+            <div
+              class="nav nav-underline"
+              data-testid="navbar"
+            >
+              <div
+                class="nav-item"
+              >
+                <a
+                  href="/"
+                >
+                  Home
+                </a>
+              </div>
+              <div
+                class="nav-item"
+              >
+                <a
+                  href="/leaderboard"
+                >
+                  Leaderboard
+                </a>
+              </div>
+              <div
+                class="nav-item"
+              >
+                <a
+                  href="/add"
+                >
+                  New
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="d-flex justify-content-end col-md-6"
+          >
+            <div
+              class="nav"
+            >
+              <div
+                class="nav-item"
+              >
+                <a
+                  aria-disabled="true"
+                  class="nav-link disabled"
+                  data-testid="username"
+                  role="button"
+                >
+                  sarahedo
+                </a>
+              </div>
+              <div
+                class="nav-item"
+              >
+                <button
+                  class="btn btn-link"
+                  data-testid="logout-btn"
+                  type="button"
+                >
+                  Log out
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="col-md-12"
+          >
+            <hr />
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="col-md-12"
+          >
+            <div
+              class="card"
+            >
+              <div
+                class="card-body"
+              >
+                <div
+                  class="table-responsive"
+                >
+                  <table
+                    class="text-center table table-hover"
+                    data-testid="leaderboard-table"
+                  >
+                    <thead>
+                      <tr>
+                        <th>
+                          Users
+                        </th>
+                        <th>
+                          Answered
+                        </th>
+                        <th>
+                          Created
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody />
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="container"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-md-6"
+        >
+          <div
+            class="nav nav-underline"
+            data-testid="navbar"
+          >
+            <div
+              class="nav-item"
+            >
+              <a
+                href="/"
+              >
+                Home
+              </a>
+            </div>
+            <div
+              class="nav-item"
+            >
+              <a
+                href="/leaderboard"
+              >
+                Leaderboard
+              </a>
+            </div>
+            <div
+              class="nav-item"
+            >
+              <a
+                href="/add"
+              >
+                New
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="d-flex justify-content-end col-md-6"
+        >
+          <div
+            class="nav"
+          >
+            <div
+              class="nav-item"
+            >
+              <a
+                aria-disabled="true"
+                class="nav-link disabled"
+                data-testid="username"
+                role="button"
+              >
+                sarahedo
+              </a>
+            </div>
+            <div
+              class="nav-item"
+            >
+              <button
+                class="btn btn-link"
+                data-testid="logout-btn"
+                type="button"
+              >
+                Log out
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col-md-12"
+        >
+          <hr />
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col-md-12"
+        >
+          <div
+            class="card"
+          >
+            <div
+              class="card-body"
+            >
+              <div
+                class="table-responsive"
+              >
+                <table
+                  class="text-center table table-hover"
+                  data-testid="leaderboard-table"
+                >
+                  <thead>
+                    <tr>
+                      <th>
+                        Users
+                      </th>
+                      <th>
+                        Answered
+                      </th>
+                      <th>
+                        Created
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody />
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`NewPoll Component > should render the create poll form 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="container"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="col-md-6"
+          >
+            <div
+              class="nav nav-underline"
+              data-testid="navbar"
+            >
+              <div
+                class="nav-item"
+              >
+                <a
+                  href="/"
+                >
+                  Home
+                </a>
+              </div>
+              <div
+                class="nav-item"
+              >
+                <a
+                  href="/leaderboard"
+                >
+                  Leaderboard
+                </a>
+              </div>
+              <div
+                class="nav-item"
+              >
+                <a
+                  href="/add"
+                >
+                  New
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="d-flex justify-content-end col-md-6"
+          >
+            <div
+              class="nav"
+            >
+              <div
+                class="nav-item"
+              >
+                <a
+                  aria-disabled="true"
+                  class="nav-link disabled"
+                  data-testid="username"
+                  role="button"
+                >
+                  sarahedo
+                </a>
+              </div>
+              <div
+                class="nav-item"
+              >
+                <button
+                  class="btn btn-link"
+                  data-testid="logout-btn"
+                  type="button"
+                >
+                  Log out
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="col-md-12"
+          >
+            <hr />
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="col-md-12"
+          >
+            <div
+              class="container"
+              data-testid="new-poll"
+              style="width: 540px;"
+            >
+              <div
+                class="row"
+              >
+                <div
+                  class="col-md-12"
+                >
+                  <div
+                    class="card"
+                  >
+                    <div
+                      class="text-center card-header"
+                    >
+                      <h3>
+                        Would You Rather 
+                      </h3>
+                      <h3>
+                        Create Your Own Poll
+                      </h3>
+                    </div>
+                    <div
+                      class="card-body"
+                    >
+                      <form
+                        class=""
+                      >
+                        <div
+                          class="mb-3"
+                        >
+                          <label
+                            class="form-label"
+                            data-testid="first-option-label"
+                            for="first-option"
+                          >
+                            First Option
+                          </label>
+                          <input
+                            class="form-control"
+                            data-testid="first-option-input"
+                            id="first-option"
+                            placeholder="Option One"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                        <div
+                          class="mb-3"
+                        >
+                          <label
+                            class="form-label"
+                            data-testid="second-option-label"
+                            for="second-option"
+                          >
+                            Second Option
+                          </label>
+                          <input
+                            class="form-control"
+                            data-testid="second-option-input"
+                            id="second-option"
+                            placeholder="Option Two"
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                        <button
+                          class="btn btn-primary d-block w-100 btn btn-primary"
+                          data-testid="poll-submit-btn"
+                          type="submit"
+                        >
+                          Submit
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="container"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-md-6"
+        >
+          <div
+            class="nav nav-underline"
+            data-testid="navbar"
+          >
+            <div
+              class="nav-item"
+            >
+              <a
+                href="/"
+              >
+                Home
+              </a>
+            </div>
+            <div
+              class="nav-item"
+            >
+              <a
+                href="/leaderboard"
+              >
+                Leaderboard
+              </a>
+            </div>
+            <div
+              class="nav-item"
+            >
+              <a
+                href="/add"
+              >
+                New
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="d-flex justify-content-end col-md-6"
+        >
+          <div
+            class="nav"
+          >
+            <div
+              class="nav-item"
+            >
+              <a
+                aria-disabled="true"
+                class="nav-link disabled"
+                data-testid="username"
+                role="button"
+              >
+                sarahedo
+              </a>
+            </div>
+            <div
+              class="nav-item"
+            >
+              <button
+                class="btn btn-link"
+                data-testid="logout-btn"
+                type="button"
+              >
+                Log out
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col-md-12"
+        >
+          <hr />
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col-md-12"
+        >
+          <div
+            class="container"
+            data-testid="new-poll"
+            style="width: 540px;"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="col-md-12"
+              >
+                <div
+                  class="card"
+                >
+                  <div
+                    class="text-center card-header"
+                  >
+                    <h3>
+                      Would You Rather 
+                    </h3>
+                    <h3>
+                      Create Your Own Poll
+                    </h3>
+                  </div>
+                  <div
+                    class="card-body"
+                  >
+                    <form
+                      class=""
+                    >
+                      <div
+                        class="mb-3"
+                      >
+                        <label
+                          class="form-label"
+                          data-testid="first-option-label"
+                          for="first-option"
+                        >
+                          First Option
+                        </label>
+                        <input
+                          class="form-control"
+                          data-testid="first-option-input"
+                          id="first-option"
+                          placeholder="Option One"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                      <div
+                        class="mb-3"
+                      >
+                        <label
+                          class="form-label"
+                          data-testid="second-option-label"
+                          for="second-option"
+                        >
+                          Second Option
+                        </label>
+                        <input
+                          class="form-control"
+                          data-testid="second-option-input"
+                          id="second-option"
+                          placeholder="Option Two"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                      <button
+                        class="btn btn-primary d-block w-100 btn btn-primary"
+                        data-testid="poll-submit-btn"
+                        type="submit"
+                      >
+                        Submit
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
